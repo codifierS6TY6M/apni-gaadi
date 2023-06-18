@@ -1,0 +1,93 @@
+.c-wrapper {
+  color: white;
+  position: relative;
+  padding-bottom: 2rem;
+}
+.c-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 6rem;
+}
+.c-left {
+  display: flex;
+  flex-direction: column;
+}
+.apnicab-logo button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: white;
+}
+.apnicab-logo img {
+  margin-left: 7rem;
+  margin-top: -20px;
+}
+.apnicab-logo {
+  margin-top: -30px;
+}
+.Catagories1-title1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+}
+.c-head {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 48px;
+  color: #ffffff;
+  align-items: center;
+}
+@media (max-width: 740px) {
+/* Catagories.css */
+
+.c-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.c-container {
+  flex-direction: column;
+}
+
+.c-left,
+.c-right {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.Catagories {
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.Catagories1-title1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.apnicab-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.apnicab-logo button {
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.apnicab-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+}

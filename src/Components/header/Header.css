@@ -1,0 +1,58 @@
+.h-wrapper {
+  color: white;
+}
+
+.h-container {
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+}
+
+.h-menu {
+  gap: 2rem;
+}
+.h-menu>*:hover{
+    cursor: pointer;
+    color: rgb(212, 212, 212);
+}
+
+
+@font-face {
+  font-family: 'Ferro Rosso';
+  src: url('../fonts/ferro-rosso.ttf') format('truetype');
+}
+.navbar-text {
+  font-family: 'Ferro Rosso', sans-serif;
+  /* Other styling properties */
+}
+.navbar-text {
+  font-size: 1.5rem;
+  color: white;
+  margin: 0;
+
+}
+.menu-icon{
+  display: none;
+}
+@media (max-width: 768px) {
+  .menu-icon{
+    display: block;
+  }
+  .h-menu{
+    color: #0C2842;
+    position: absolute;
+    top: 3rem;
+    right: 4rem;
+    background: white;
+    flex-direction: column;
+    font-weight: 500;
+    gap: 2rem;
+    padding: 3rem;
+    border-radius: 10px;
+    align-items: flex-start;
+    box-shadow: #818182;
+    transition: all 300ms ease-in-out;
+  }
+}
+

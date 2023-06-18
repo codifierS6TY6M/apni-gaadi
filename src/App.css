@@ -1,0 +1,79 @@
+.App {
+  position: relative;
+  overflow-x: clip;
+  background: #0c2842;
+}
+.grey-gradient {
+  position: absolute;
+  width: 705.83px;
+  height: 620.23px;
+  left: 1402.83px;
+  top: -176px;
+  background: #878480;
+  filter: blur(100.5px);
+  transform: rotate(38.23deg);
+}
+.red-gradient {
+  position: absolute;
+  width: 491px;
+  height: 562px;
+  left: 1205px;
+  top: 827px;
+  background: #7d0d0d;
+  filter: blur(221.5px);
+}
+.grey-gradient2 {
+  position: absolute;
+  width: 501.61px;
+  height: 609.16px;
+  left: 19.98px;
+  top: 190px;
+  background: #878480;
+  filter: blur(221.5px);
+  transform: rotate(38.23deg);
+}
+.sky-gradient {
+  position: absolute;
+  width: 281px;
+  height: 258px;
+  left: 446px;
+  top: 1035px;
+  background: #0d627d;
+  filter: blur(114px);
+}
+.grey-gradient3 {
+  position: absolute;
+  width: 1089px;
+  height: 1140px;
+  left: -503px;
+  top: 1423px;
+  background: #878480;
+  filter: blur(245.5px);
+}
+.sky-gradient2 {
+  position: absolute;
+  width: 764px;
+  height: 708px;
+  left: 1046px;
+  top: 2067px;
+  background: #2b8ec6;
+  filter: blur(122px);
+}
+.red-gradient {
+  position: absolute;
+  width: 491px;
+  height: 562px;
+  left: 1205px;
+  top: 3047px;
+  background: #7d0d0d;
+  filter: blur(221.5px);
+}
+.sky-gradient2 {
+  position: absolute;
+  width: 764px;
+  height: 708px;
+  left: -503px;
+  top: 4067px;
+  background: #2b8ec6;
+  filter: blur(122px);
+}
